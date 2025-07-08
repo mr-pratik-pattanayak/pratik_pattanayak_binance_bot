@@ -1,17 +1,7 @@
-# Ignore environment variables file
 .env
-
-# Ignore Python cache
+bot.log
 __pycache__/
 *.pyc
-
-# Ignore log files
-bot.log
-
-# Ignore virtual environments
 venv/
-
-# Ignore system files
 .DS_Store
 Thumbs.db
-
