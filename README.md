@@ -31,7 +31,7 @@ All trades, errors, and API interactions are logged for auditing.
 
 ### 1️⃣ Clone the project
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/mr-pratik-pattanayak/pratik_pattanayak_binance_bot.git
 cd pratik_pattanayak_binance_bot
 ```
 
@@ -83,6 +83,34 @@ python src/cli_main.py
 ## 📁 Project Structure
 
 Clean folder structure with modules for Market, Limit, OCO, TWAP, Grid orders and CLI.
+
+```
+pratik_pattanayak_binance_bot/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── bot.log
+├── report.pdf
+│
+├── src/
+│   ├── binance_client.py
+│   ├── cli_main.py
+│   ├── config.py
+│   ├── limit_orders.py
+│   ├── logger_config.py
+│   ├── market_orders.py
+│   │
+│   └── advanced/
+│       ├── grid_trading.py
+│       ├── oco_orders.py
+│       └── twap_order.py
+```
+
+
+
+
+
+
 
 ## 📝 Logs
 
